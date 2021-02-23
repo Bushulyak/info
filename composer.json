@@ -1,0 +1,31 @@
+{
+    "name": "bushulyak/solid",
+    "description": "SOLID && patterns",
+    "authors": [
+        {
+            "name": "Vitalii Bushuliak",
+            "email": "bushulyak@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SOLID\\SRP\\Bad\\": "SOLID\\SRP\\Bad\\",
+            "SOLID\\SRP\\Good\\": "SOLID\\SRP\\Good\\",
+            "SOLID\\OCP\\Bad\\": "SOLID\\OCP\\Bad\\",
+            "SOLID\\OCP\\Good\\": "SOLID\\OCP\\Good\\",
+            "SOLID\\LSP\\Bad\\": "SOLID\\LSP\\Bad\\",
+            "SOLID\\LSP\\Good\\": "SOLID\\LSP\\Good\\",
+            "SOLID\\ISP\\Bad\\": "SOLID\\ISP\\Bad\\",
+            "SOLID\\ISP\\Good\\": "SOLID\\ISP\\Good\\",
+            "SOLID\\DIP\\Bad\\": "SOLID\\DIP\\Bad\\",
+            "SOLID\\DIP\\Good\\": "SOLID\\DIP\\Good\\",
+            "Patterns\\Fundamental\\PropertyContainerPattern\\": "Patterns\\Fundamental\\PropertyContainerPattern\\",
+            "Patterns\\Fundamental\\DelegationPattern\\": "Patterns\\Fundamental\\DelegationPattern\\",
+            "Patterns\\Fundamental\\EventChannelPattern\\": "Patterns\\Fundamental\\EventChannelPattern\\",
+            "Patterns\\Fundamental\\InterfacePattern\\": "Patterns\\Fundamental\\InterfacePattern\\"
+        }
+    }
+}
